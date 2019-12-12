@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image: url("https://c.static-nike.com/a/images/w_1920,c_limit,f_auto/duxjcchbmopeodlj2rtb/nike-air-max-197-sean-wotherspoon-release-date.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+h1,h4{
+    color: rgb(15, 139, 170);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+main,header{
+    text-align: center;
+    margin: 50px
+}
+main{
+    font-family: 'Sulphur Point', sans-serif;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.781);
+}
+.sign{
+    text-align: center;
+}
+.input{
+    text-align: center;
+    width: 100%;
+    color: rgb(18, 107, 129);
+    font-weight: bold;
+}
+.link{
+    border:2px solid rgb(255, 145, 0);
+    background-color: rgb(255, 145, 0);
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+}
+.daftar{
+    border:2px solid rgb(255, 52, 164);
+    background-color: rgb(255, 52, 164);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.sk{
+    color: pink;
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 0px;
+    margin-left: 330px;
+    margin-right: 280px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #eee;
+  }
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .container .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 3px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  /* mulai css radio */
+
+  input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+  }
+  
+  .radio {
+    color: #2196F3;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 20px;
+  }
+  
+  input[type=radio]:checked + label{
+    color:yellow;
+    background: #2196F3;
+  }
+  
+  label + input[type=radio] + label {
+    border-left: solid 0;
+  }
+  .radio-group {
+   
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+/* Mulai border form*/
+.form{
+    border: 2px solid rgba(167, 167, 172, 0.87);
+    background-color: rgba(255, 255, 255, 0.685);
+    border-radius: 6px;
+    padding: 8px;
+    font-family: 'Sulphur Point', sans-serif;
+    color: rgb(15, 139, 170);
+    width: 250px;
+}
+.logo img{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <link href="/home/darindra23/Documents/Hacktiv8/Latihan Pribadi/HTML & CSS/signup.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:500|Sulphur+Point&display=swap" rel="stylesheet"> 
+    <header>
+    </header>
+
+    <main>
+        <body>  
+                <div class="logo">
+                    <img src="/home/darindra23/Documents/Hacktiv8/Latihan Pribadi/HTML & CSS/logo.jpg" alt="logo-toko">
+                </div>
+                <p><h4>Daftar Akun Baru Untuk Berbelanja</h4></p>
+                <!-- mulai code form -->
+            <form action="" method="POST">
+            <div class="input" id="input">
+                <div class="tengah">
+                    <input class="form" id="fname" type="text" name="fname" placeholder="First Name" pattern="[A-Za-z^\s*$]{3,15}" title="Please Input Your Name Min 3 Character and Max 15 Character."required> <br> <br>
+                    <input class="form" id="lname" type="text" name="fname" placeholder="Last Name" pattern="[A-Za-z^\s*$]{3,15}" title="Please Input Your Name Min 3 Character and Max 15 Character." required> <br> <br>
+                    <input class="form" id="email" type="text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="E-Mail" required> <br> <br>
+                    <input class="form" id="username" type="text" name="username" minlength="3" maxlength="10" placeholder="Username" required> <br> <br>
+                    <input class="form" id="password" type="password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{4,15}$" title=" Password must contain at least 1 Number,Uppercase,Lowercase, and (@$!%*?&) ! Minimium 8 Character and Maximum 15 Character" placeholder="Password" required> <br> <br>
+                    <input class="form" id="phone" type="text" name="phone" pattern="^[0-9]+$" placeholder="Phone Number" required> <br>
+                </div>
+                <br> <br>
+                Gender : 
+                <br>
+                <br>
+                    <div class="radio-group">
+                        <input type="radio" id="option-one" name="selector">
+                        <label class='radio' for="option-one">Male</label>
+                        <input type="radio" id="option-two" name="selector">
+                        <label class='radio' for="option-two">Female</label>
+                        <input type="radio" id="option-three" name="selector">
+                    </div>
+                
+            <br>
+            <br>
+                <label class="container">
+                    <input type="checkbox" name="sdk" value="agree" required> Saya telah membaca dan menyetujui <span><a class="sk" href="/home/darindra23/Documents/Hacktiv8/Latihan Pribadi/HTML & CSS/signup.html">Aturan Penggunaan</a></span> dan <span><a class="sk" href="/home/darindra23/Documents/Hacktiv8/Latihan Pribadi/HTML & CSS/signup.html"> Kebijakan Privasi </a> </span>.
+                    <span class="checkmark"></span>
+                </label> 
+            <br>
+            <br>
+            <input class="daftar" type="submit" value="Daftar Sekarang">
+            <br>
+            <br>
+            Sudah punya akun? <span><a class="link" href="/home/darindra23/Documents/Hacktiv8/Latihan Pribadi/HTML & CSS/signup.html">Login Disini </a></span>
+            </div>
+
+               
+
+
+
+            </form>
+        </bod>
+        
+            
+
+        </div>
+    
+    </main>
+</html>
