@@ -1,0 +1,56 @@
+
+html{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://media.idownloadblog.com/wp-content/uploads/2019/03/WWDC-2019-Wallpaper-AR72014-desktop-v1.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+p{
+    color: white;
+    font-family: 'Muli', sans-serif;
+}
+.content{
+    
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-transform: uppercase;
+}
+li{
+    display: inline;
+    margin: 25px;
+}
+ul,a{
+    color: white;
+    font-family: 'Muli', sans-serif;
+    list-style-type: none ;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.foto img{
+    width: 320px;
+    height: auto;
+    border-radius: 80px;
+}
+.foto{
+    margin-top: 90px;
+    margin-left:120px;
+}
+.isi{
+    margin-left: 270px;
+    margin-top: -510px;
+}
+}

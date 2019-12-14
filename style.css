@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://media.idownloadblog.com/wp-content/uploads/2019/03/WWDC-2019-Wallpaper-AR72014-desktop-v1.png");
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+    
+p{
+    font-family: 'Muli', sans-serif;
+    color: white;
+}
+.profile img{
+    width: 320px;
+    height: auto;
+    border-radius: 90px;
+    
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    margin-top: 40%;
+    margin-left: 20px;
+}
+.welcome{
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 180px;
+}
+.nama{
+    font-weight: 800;
+    font-size: 55px;
+    
+}
+.hallo{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: left;
+}
+.student{
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 8px;
+    text-align: left;
+}
+.sosmed{
+    text-align: left;
+    margin-top: 30px;
+}
+.sosmed img{
+    width: 27px;
+    height: auto;
+}
+.button{
+    border: 2px groove rgb(255, 0, 128);
+    background-color: rgba(255, 136, 0, 0);
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: left;
+    width: 90px;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+}
